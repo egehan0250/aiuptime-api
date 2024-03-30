@@ -1,0 +1,29 @@
+{
+    "name": "aiuptime-api",
+    "version": "0.0.1",
+    "description": "AIuptime Dealer System API Module",
+    "main": "app.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/egehan0250/aiuptime-api.git"
+    },
+    "keywords": [
+      "aiuptime",
+      "aiuptime-dealer-system",
+      "uptime",
+      "api"
+    ],
+    "author": "Egehan KONTAŞ",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/egehan0250/aiuptime-api/issues"
+    },
+    "homepage": "https://github.com/egehan0250/aiuptime-api#readme",
+    "dependencies": {
+      "axios": "^1.6.8"
+    }
+  }
+  

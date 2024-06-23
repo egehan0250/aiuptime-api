@@ -1,4 +1,4 @@
-const uptimeDealerAPI = require('./app.js');
+const uptimeDealerAPI = require('aiuptime-api');
 
 (async () => {
     let uptimeAPI = new uptimeDealerAPI({ key: 'DWDi7MPlRY8Smzbw1ppAF0VrDPGLi25b', api: 'https://aiuptime.net/api/v1' });

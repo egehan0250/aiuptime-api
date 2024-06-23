@@ -15,7 +15,7 @@ const axios = require("axios");
 class uptimeDealerAPI {
   constructor(options) {
     this.key = options.key;
-    this.api = "https://aiuptime.net/api/v1";
+    this.api = options.api || "https://aiuptime.net/api/v1";
   }
 
   async test() {

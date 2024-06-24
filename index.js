@@ -27,7 +27,7 @@ const uptimeDealerAPI = require('aiuptime-api');
 //     let monitorUpdate = await uptimeAPI.updateMonitor({ monitorID: '7219057736083927000', name: 'Test', description: 'This is a test monitor', url: 'https://www.aiuptime.net' });
 
 //     //changeStatus by monitor URL (statusType: status or maintenance)
-//    let changeStatus = await uptimeAPI.changeMonitorStatus({ url: 'https://www.aiuptime.net',  status: true, statusType: 'status' });
+//     let changeStatus = await uptimeAPI.changeMonitorStatus({ url: 'https://www.aiuptime.net',  status: true, statusType: 'status' });
 
 //     //changeStatus by monitor ID (statusType: status or maintenance)
 //     let changeStatus = await uptimeAPI.changeMonitorStatus({ monitorID: '7219057736083927000', status: false, statusType: 'maintenance' });

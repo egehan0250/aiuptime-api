@@ -58,7 +58,6 @@ class uptimeDealerAPI {
   }
 
   async deleteMonitor({ monitorID, url }) {
-    // monitorID or url
     try {
       let res = await axios.post(this.api, {
         key: this.key,
@@ -97,7 +96,6 @@ class uptimeDealerAPI {
   }
 
   async getMonitor({ monitorID, url }) {
-    // monitorID or url
     try {
       let res = await axios.post(this.api, {
         key: this.key,
@@ -118,7 +116,6 @@ class uptimeDealerAPI {
   }
 
   async updateMonitor({ monitorID, url, name, description }) {
-    // monitorID or url
     try {
       let res = await axios.post(this.api, {
         key: this.key,
@@ -141,7 +138,6 @@ class uptimeDealerAPI {
   }
 
   async changeMonitorStatus({ monitorID, url, status, statusType }) {
-    // monitorID or url
     try {
       let res = await axios.post(this.api, {
         key: this.key,

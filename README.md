@@ -1,7 +1,7 @@
 # AIuptime API
 
 ```js
- let uptimeAPI = new uptimeDealerAPI({ key: 'API KEY', api: 'https://aiuptime.net/api/v1' });
+let uptimeAPI = new uptimeDealerAPI({ key: 'API KEY', api: 'https://api.aiuptime.net/v1' });
 
     let test = await uptimeAPI.test();
     let createMonitor = await uptimeAPI.createMonitor({ name: 'Test Monitor', url: 'https://www.aiuptime.net', description: 'This is a test monitor' });

@@ -34,7 +34,7 @@ let uptimeAPI = new uptimeDealerAPI({ key: 'API KEY', api: 'https://api.aiuptime
 ```
 # 🎈 Images 🎈
 
-![image](https://github.com/egehan0250/aiuptime-api/assets/79449566/31d6da13-f9d5-48a5-8005-7fc76ae7a355)
+![Prew](https://github.com/user-attachments/assets/6708300e-27db-4e12-833a-bd967dbb5608)
 
 ---
 - ✨ [For Support](https://github.com/sponsors/egehan0250) <br>
